@@ -30,7 +30,7 @@ body {
 
 .form {
     background-color: #fff;
-    padding: 30px 40px;
+    padding: 40px;
     border-radius: var(--border-radius);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
@@ -95,6 +95,24 @@ h2 {
     visibility: visible;
 }
 
+
+/* Media Query */
+@media (max-width: 450px) {
+    .form {   
+        padding: 30px;
+        margin: 0 15px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .form-control label {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .form-control input {
+        margin-top: 7px;
+    }
+}
 
 
 
